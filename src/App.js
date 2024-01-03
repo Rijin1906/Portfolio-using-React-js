@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "../src/Header";
+import Home from "../src/Home";
+import About from "../src/About";
+import Skills from "../src/Skills";
+import Project from "../src/Project";
+import Contact from "../src/Contact";
+// import PageNot from "./components/PageNot"
+import { BrowserRouter, Route, Routes, Link, Navigate} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+{/* Just for media query checking */}
+{/* <Contact/> */}
+
+
+
+
+      <BrowserRouter>
+        <Header />  
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/about" element={<About />}/>
+          <Route exact path="/skills" element={<Skills />}></Route>
+          <Route exact path="/project" element={<Project />}></Route>
+          <Route exact path="/contact" element={<Contact />}></Route>
+          <Route exact path="/" element={<Home />}></Route>
+          <Route exact path="/*" element={<Navigate to="/"/>}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
+
+  
   );
 }
+
+
 
 export default App;
