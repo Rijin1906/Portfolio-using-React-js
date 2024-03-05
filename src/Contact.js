@@ -70,9 +70,9 @@ export default function Contact() {
       <div>
         <ul id="icons">
           <li>
-            <a href="https://www.instagram.com/hey_rijiii/">
+            <a href="https://unsplash.com/@rijin_1906">
               {" "}
-              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-unsplash"></i>
             </a>
           </li>
           <li><a href="https://www.linkedin.com/in/rijin-raj-6574b1226/"><i class="fa-brands fa-linkedin"></i></a></li>

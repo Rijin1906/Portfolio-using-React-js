@@ -16,8 +16,8 @@ import c from "../src/components  /assets/logos/c.png";
 import resume from "../src/components  /assets/Resume.pdf"
 
 const data = [
-  { key: 1, imgs: html},
-  { key: 2, imgs: css },
+  { key: 1, imgs: html},//0
+  { key: 2, imgs: css },//1
   { key: 3, imgs:js },
   { key: 4, imgs: bts },
   { key: 5, imgs:react  },

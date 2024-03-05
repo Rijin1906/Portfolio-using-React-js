@@ -7,6 +7,7 @@ import p4 from "../src/components  /assets/Projects pictures/Haneefa.png";
 import p5 from "../src/components  /assets/Projects pictures/meme.png";
 import p6 from "../src/components  /assets/Projects pictures/Wordutil.png";
 import p7 from "../src/components  /assets/Projects pictures/Portfolio.png";
+import p8 from "../src/components  /assets/Projects pictures/WeatherAPI.png";
 
 const projects = [
   {
@@ -45,18 +46,25 @@ const projects = [
     url: "https://wordutil-2722f.firebaseapp.com/",
   },
   {
-    key: 2,
+    key: 7,
     images: p2,
     title: "Cheatsheet",
     desc: "A cheatsheet website is a valuable resource for students,providing quickk access to key information and formulas for various subjects. It's like having a pocket tutor at your fingertip.",
     url: "https://rijin1906-cheetsheet.netlify.app/",
   },
   {
-    key: 2,
+    key: 8,
     images: p7,
     title: "Portfolio",
     desc: "Passionate software developer with a proven track record of designing, developing, and implementing high-quality applications. Expertise in a variety of programming languages and frameworks, including JavaScript, React. Strong problem-solving skills and a commitment to delivering projects on time.",
     url: "https://portfolio-f0e33.firebaseapp.com/",
+  },
+   {
+    key: 9,
+    images: p8,
+    title: "Weather App",
+    desc: "Imagine a sleek and user-friendly React application that acts as your personal weather concierge. This weather app leverages the power of APIs to retrieve real-time weather data for any city you choose. Simply enter the city name, and the app displays current temperature, weather conditions, and other relevant information like humidity and wind speed. Built with React, the app boasts a dynamic and interactive interface, updating instantly as you explore different locations. So, whether you're planning a trip or just curious about the day's forecast, this weather app empowers you to stay informed with a touch of modern convenience.",
+    url: "https://weather-app-using-api-9712b.web.app/",
   },
 ];
 export default function Project() {
