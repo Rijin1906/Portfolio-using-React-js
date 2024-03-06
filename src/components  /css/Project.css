@@ -14,7 +14,6 @@
     color: #EDB7ED;
     font-size: 20px;
  font-family: 'Times New Roman';
-    /* margin-bottom: 2rem !important; */
 }
 
 .alignments{
@@ -23,5 +22,21 @@
 }
 hr{
     color: #E9B824;
-}   
+} 
 
+/* ----------------------------------------------------MEDIA QUERY ---------------------------------------------------- */
+/* ------------------------------------ SMALL SCREENS (MOBILES)--------------------------------------------------------*/
+/* @media screen and (max-width:320px){
+    .always{
+        margin-bottom: 10px;
+        display: content;
+    }
+    .card-img-top{
+        width: 150px;
+        height: 90px;
+    }
+    .cardImagee{
+        width: 200px !important;
+        height: 150px;
+    }
+} */

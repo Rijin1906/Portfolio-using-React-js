@@ -32,7 +32,7 @@
     }
     .skill-card{
         width: 18rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
         /* height: 20%; */
     }
     .alignments{
@@ -40,14 +40,20 @@
     }
     .skill-card img{
         height: 13rem;
-        filter: drop-shadow(2px 4px 6px white);
-        background-color: #F8F6F4;
+        filter: drop-shadow(2px 2px 4px white);
+        background-color: white;
     }
     .skill-card img:hover{
-        /* filter: drop-shadow(2px 4px 6px #E9B824); */
-        background-color: #EDB7ED;
+      scale: 1.1;;
+      opacity: 0.75;
+      /* animation: simple 5s linear 2s infinite alternate; */
         cursor:grab;
     }
+    /* @keyframes simple {
+        from{background-color: white;}
+        to{background-color: green}
+        
+    } */
     .skill-resume h5{
         margin-top: 4rem;
         font-family: 'Kdam Thmor Pro', sans-serif;
@@ -57,3 +63,149 @@
     .skill-resume button a{
         color: white;
     }
+    /* ---------------------------------MEDIA QUERY--------------------------- */
+    /* -------------------------------EXTRA SMALL SCREENS (MOBILES)------------- */
+    @media screen and (max-width:320px){
+    .skills-head h2{
+            padding-top: 1.5rem;
+            font-size: 20px !important;
+        }
+        .skills-head q{
+            font-size: 10px !important;
+        }
+    .skill-card{
+        width: 11rem;
+        margin-bottom: 1.5rem;
+    }
+    .alignments{
+        margin-bottom: 1rem;
+        /* display: block; */
+    }
+    .skill-card img{
+        height:3rem;
+    }
+    .skill-resume h5{
+        margin-top: 2rem;
+        font-size: 10px;
+    }
+    .skill-resume button a{
+        font-size: 12px;
+    }
+    hr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* ----------------------SMALL SCREENS (PHONES AND SMALL TABLETS-------------------------- */
+@media screen and (min-width:320px) and (max-width:768px){
+.skills-head h2{
+        padding-top: 1.75rem;
+        font-size: 23px !important;
+    }
+    .skills-head q{
+        font-size: 13px !important;
+    }
+    .alignments{
+        margin-bottom: 1.25rem;
+    }
+    .skill-card img{
+        height: 4rem;
+    }
+    .skill-resume h5{
+        margin-top: 2.5rem;
+        font-size: 13px;
+    }
+    .skill-resume button a{
+        font-size: 14px;
+    }
+    hr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* -------------------------------MEDIUM SCREEN (TABLETS)----------------------------- */
+@media screen and (min-width:768px) and (max-width:992px){
+    .skills-head h2{
+        padding-top: 2rem;
+        font-size: 26px !important;
+    }
+    .skills-head q{
+        font-size: 16px !important;
+    }
+    .alignments{
+        margin-bottom: 1.5rem;
+    }
+    .skill-card img{
+        height: 9rem;
+    }
+    .skill-resume h5{
+        margin-top: 3rem;
+        font-size: 16px;
+    }
+    .skill-resume button a{
+        font-size: 16px;
+    }
+    hr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* ------------------------------LARGE SCREENS (DESKTOPS)----------------------- */
+@media screen and (min-width:992px) and (max-width:1200px){
+    .skills-head h2{
+        padding-top: 3rem;
+        font-size: 30px !important;
+    }
+    .skills-head q{
+        font-size: 20px !important;
+    }
+    .alignments{
+        margin-bottom: 2rem;
+    }
+    .skill-card img{
+        height: 13rem;
+    }
+    .skill-resume h5{
+        margin-top: 4rem;
+        font-size:20px;
+    }
+    .skill-resume button a{
+        font-size: 18px;
+    }
+    hr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* ------------------------------EXTRA LARGE SCREENS (LARGE DESKTOPS)------------------------------ */
+@media screen and (min-width:1200px){
+    .skills-head h2{
+        padding-top: 3rem;
+        font-size: 30px !important;
+    }
+    .skills-head q{
+        font-size: 20px !important;
+    }
+    .alignments{
+        margin-bottom: 2rem;
+    }
+    .skill-card img{
+        height: 13rem;
+    }
+    .skill-resume h5{
+        margin-top: 4rem;
+        font-size:20px;
+    }
+    .skill-resume button a{
+        font-size: 18px;
+    }
+    hr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

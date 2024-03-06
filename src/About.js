@@ -16,10 +16,10 @@ export default function About() {
         </div>
         {/* First Row */}
         <div className="row">
-          <div className="col-md-6 first">
+          <div className="first">
             <img src={three} alt="third picture"></img>
           </div>
-          <div className="col-md-6 second">
+          <div className="second">
             <p>
               As a passionate front-end and Java developer, I bring together my
               expertise in both user-facing web development and server-side

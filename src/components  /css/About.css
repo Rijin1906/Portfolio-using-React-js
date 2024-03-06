@@ -48,3 +48,115 @@
     hr{
         color: #E9B824;
     }
+
+    /* ----------------------------------MEDIA QUERY -------------------------------------- */
+    /* ---------------------------------EXTRA SMALL SCREENS (MOBILES)---------------------- */
+    @media screen and (max-width:320px){
+        .about-head h2{
+            padding-top: 1.5rem;
+            font-size: 20px !important;
+        }
+        .about-head q{
+            font-size: 10px !important;
+        }
+        .first img{
+            display:none
+        }
+        .second{
+            font-size: 15px;
+            padding-right: 10px;
+        }
+        hr{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    /* ------------------------------------SMALL SCREEN (MOBILES AND SMALL TABLETS)-------------- */
+    @media screen and (min-width:320px) and (max-width:768px){
+        .about-head h2{
+            padding-top: 1.75rem;
+            font-size: 23px !important;
+        }
+        .about-head q{
+            font-size: 13px !important;
+        }
+        .first img{
+            display:none
+        }
+        .second{
+            font-size: 18px;
+            padding-right: 10px;
+        }
+        hr{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    /* ---------------------------------MEDIUM SCREEN (TABLETS)------------------------- */
+    @media screen and (min-width:768px) and (max-width:992px){
+        .about-head h2{
+            padding-top: 2rem;
+            font-size: 26px !important;
+        }
+        .about-head q{
+            font-size: 16px !important;
+        }
+        .first img{
+            display:none
+        }
+        .second{
+            font-size: 21px;
+            padding-right: 10px;
+        }
+        hr{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    /* ---------------------LARGE SCREEN (DESKTOPS)---------------------- */
+    @media screen and (min-width:992px) and (max-width:1200px){
+        .about-head h2{
+            padding-top: 3rem;
+            font-size: 30px !important;
+        }
+        .about-head q{
+            font-size: 20px !important;
+        }
+        .first img{
+            display:none
+        }
+        .second{
+            font-size: 24px;
+            padding-right: 15px;
+        }
+        hr{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    /* ---------------------------------------EXTRA LARGE SCREEN (LARGE DESKTOPS)------------------ */
+    @media screen and (min-width:1200px){
+        .about-head h2{
+            padding-top: 3rem;
+            font-size: 32px !important;
+        }
+        .about-head q{
+            font-size: 22px !important;
+        }
+        .first img{
+            display:none
+        }
+        .second{
+            font-size: 26px;
+            padding-right: 15px;
+        }
+        hr{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }

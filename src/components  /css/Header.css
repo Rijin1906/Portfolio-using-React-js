@@ -35,33 +35,41 @@ ul a:active
     text-decoration: none;
     color:rgb(37, 8, 65);
     }
-    /* ul a:active{
-        text-decoration: none;
-        color: maroon;} */
-    
 
-        /* MEDIA QUERY  */
+    /* --------------------------MEDIA QUERY --------------------------------------- */
+    /* --------------------------EXTRA SMALL SCREENS (PHONES)----------------------- */
+    @media screen and (max-width:320px) {
+        ul li{
+            font-size: 13px;
+            padding-right: 10px;
+        }
 
-/* Desktop and Laptops */
-/* Tablets and iPad */
-/* Mobile phones */
-
-@media(max-width:375px){
-    ul li{
-        list-style: none;
-        font-family: 'Kdam Thmor Pro', sans-serif;
-        font-size: 13px;
-        color: red;
-        display: flex;
-        justify-content:space-between;
     }
-    /* .inner-div{
-        display: flex;
-        justify-content: center;
-        
-    } */
-    /* .navbar{
-        display: flex;
-        position: relative;
-    } */
-}
+    /* --------------------------------SMALL SCREENS (PHONES AND SMALL TABLETS)--------------- */
+    @media(min-width:320px) and (max-width:768px){
+        ul li{
+            font-size: 14px;
+            padding-right: 10px;
+        }
+    }
+    /* ---------------------------MEDIUM SCREENS (TABLETS)------------------------------------- */
+    @media(min-width:768px) and (max-width:992px){
+        ul li{
+            font-size: 20px;
+            padding-right: 14px;
+        }
+    }
+    /* ----------------------------LARGE SCREENS (DESKTOPS)------------------------------------ */
+    @media(min-width:992px) and (max-width:1200px){
+        ul li{
+            font-size: 25px;
+            padding-right: 20px;
+        }
+    }
+    /* ---------------------------EXTRA LARGE SCREENS (LARGE DESKTOPS)------------------------ */
+    @media screen and (min-width:1200px){
+        ul li{
+            font-size: 27px;
+            padding-right: 22px;
+        }
+    }

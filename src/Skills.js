@@ -15,19 +15,22 @@ import c from "../src/components  /assets/logos/c.png";
 // pdf import
 import resume from "../src/components  /assets/Resume.pdf"
 
-const data = [
+const data1 = [
   { key: 1, imgs: html},//0
   { key: 2, imgs: css },//1
   { key: 3, imgs:js },
   { key: 4, imgs: bts },
-  { key: 5, imgs:react  },
+  
+
+
+  // { key: 8, imgs: p1 }
+];
+const data2=[{ key: 5, imgs:react  },
   { key: 6, imgs:redux  },
   { key: 7, imgs: java },
   { key: 8, imgs: sql },
   {key :9, imgs: python},
-  {key:10, imgs: c}
-  // { key: 8, imgs: p1 }
-];
+  {key:10, imgs: c}]
 
 export default function Skills() {
 
@@ -40,15 +43,17 @@ export default function Skills() {
           <q>Build your skills, not your resume.</q><br></br>
         </div>
 
-    
-
-
-
-
       <div className="row alignments">
         {" "}
-        {data.map((item) => (
-          <div className="col-3">
+        {data1.map((item) => (
+          <div className="col-3 ">
+            <div className="skill-card">
+              <img src={item.imgs}></img>
+            </div>
+          </div>
+        ))}
+         {data2.map((item) => (
+          <div className="col-3 ">
             <div className="skill-card">
               <img src={item.imgs}></img>
             </div>

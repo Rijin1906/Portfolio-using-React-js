@@ -87,10 +87,10 @@ export default function Project() {
         </div>
         <div className="row ">
           {projects.map((items) => (
-            <div className="col-4" style={{marginBottom:"10px"}}>
-              <div class="project-card inside-card">
+            <div className="col-4 always" style={{marginBottom:"10px"}}>
+              <div class="project-card inside-card ">
                 <img
-                  class="card-img-top "
+                  class="card-img-top cardImage"
                   src={items.images}
                   alt="Card image cap"
                   style={{
