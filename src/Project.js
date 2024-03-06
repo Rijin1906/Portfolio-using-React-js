@@ -8,6 +8,7 @@ import p5 from "../src/components  /assets/Projects pictures/meme.png";
 import p6 from "../src/components  /assets/Projects pictures/Wordutil.png";
 import p7 from "../src/components  /assets/Projects pictures/Portfolio.png";
 import p8 from "../src/components  /assets/Projects pictures/WeatherAPI.png";
+import p9 from "../src/components  /assets/Projects pictures/Rock,Paper and Scissors.png"
 
 const projects = [
   {
@@ -65,6 +66,13 @@ const projects = [
     title: "Weather App",
     desc: "Imagine a sleek and user-friendly React application that acts as your personal weather concierge. This weather app leverages the power of APIs to retrieve real-time weather data for any city you choose. Simply enter the city name, and the app displays current temperature, weather conditions, and other relevant information like humidity and wind speed. Built with React, the app boasts a dynamic and interactive interface, updating instantly as you explore different locations. So, whether you're planning a trip or just curious about the day's forecast, this weather app empowers you to stay informed with a touch of modern convenience.",
     url: "https://weather-app-using-api-9712b.web.app/",
+  },
+  {
+    key: 10,
+    images: p9,
+    title: "Rock, Paper and Scissors Game",
+    desc: "I crafted a simple Rock, Paper, Scissors game using JavaScript to refresh my grasp on fundamental coding concepts. By minimizing HTML and CSS, the project focused on core functionalities like DOM manipulation, event listeners, random number generation, and conditional logic. Choosing a familiar game allowed me to experiment with these building blocks in a practical and engaging way.",
+    url: "https://rock-paper-scissors-game-rijin.netlify.app/",
   },
 ];
 export default function Project() {
