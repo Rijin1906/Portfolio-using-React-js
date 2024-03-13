@@ -30,18 +30,8 @@
         font-size: 20px;
         font-family: 'Kdam Thmor Pro', sans-serif;
     }
-    .skill-card{
-        width: 18rem;
-        margin-bottom: 1.5rem;
-        /* height: 20%; */
-    }
     .alignments{
         margin-bottom: 2rem;;
-    }
-    .skill-card img{
-        height: 13rem;
-        filter: drop-shadow(2px 2px 4px white);
-        background-color: white;
     }
     .skill-card img:hover{
       scale: 1.1;;
@@ -49,11 +39,6 @@
       /* animation: simple 5s linear 2s infinite alternate; */
         cursor:grab;
     }
-    /* @keyframes simple {
-        from{background-color: white;}
-        to{background-color: green}
-        
-    } */
     .skill-resume h5{
         margin-top: 4rem;
         font-family: 'Kdam Thmor Pro', sans-serif;
@@ -63,6 +48,53 @@
     .skill-resume button a{
         color: white;
     }
+    .skill-container {
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+      }
+      
+      .skill-card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .skill-card {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        padding: 15px;
+        text-align: center;
+        width: 23%; /* Adjust width for desktop view (4 cards per row) */
+      }
+      
+      .skill-card img {
+        width: 50%;
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      .skill-card h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+      
+      /* Tablet view (3 cards per row) */
+      @media only screen and (max-width: 768px) {
+        .skill-card {
+          width: 30%; /* Adjust width for tablet view (3 cards per row) */
+        }
+      }
+      
+      /* Mobile view (single card per row) */
+      @media only screen and (max-width: 480px) {
+        .skill-card {
+          width: 100%; /* Adjust width for mobile view (single card per row) */
+        }
+      }
+      
     /* ---------------------------------MEDIA QUERY--------------------------- */
     /* -------------------------------EXTRA SMALL SCREENS (MOBILES)------------- */
     @media screen and (max-width:320px){
@@ -73,17 +105,11 @@
         .skills-head q{
             font-size: 10px !important;
         }
-    .skill-card{
-        width: 11rem;
-        margin-bottom: 1.5rem;
-    }
     .alignments{
         margin-bottom: 1rem;
         /* display: block; */
     }
-    .skill-card img{
-        height:3rem;
-    }
+
     .skill-resume h5{
         margin-top: 2rem;
         font-size: 10px;
@@ -108,9 +134,6 @@
     }
     .alignments{
         margin-bottom: 1.25rem;
-    }
-    .skill-card img{
-        height: 4rem;
     }
     .skill-resume h5{
         margin-top: 2.5rem;
@@ -137,9 +160,6 @@
     .alignments{
         margin-bottom: 1.5rem;
     }
-    .skill-card img{
-        height: 9rem;
-    }
     .skill-resume h5{
         margin-top: 3rem;
         font-size: 16px;
@@ -165,9 +185,6 @@
     .alignments{
         margin-bottom: 2rem;
     }
-    .skill-card img{
-        height: 13rem;
-    }
     .skill-resume h5{
         margin-top: 4rem;
         font-size:20px;
@@ -192,9 +209,6 @@
     }
     .alignments{
         margin-bottom: 2rem;
-    }
-    .skill-card img{
-        height: 13rem;
     }
     .skill-resume h5{
         margin-top: 4rem;

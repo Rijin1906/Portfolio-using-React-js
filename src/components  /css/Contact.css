@@ -1,180 +1,250 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
-    body{
-        width: 100%;
-        height: 100%;
-    }
-    
-    .contact-body{
-      background-color: #4B527E;
-      height: 100vh;
-    }
-    
-    div h2{
-        padding-top: 2rem;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        font-family: 'Kdam Thmor Pro', sans-serif;
-        color: #E9B824;
-        font-size: 30px;
-text-decoration: underline; 
-    }
-    div #para{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        color: #EDB7ED;
-        font-size: 20px;
-        font-family: 'Kdam Thmor Pro', sans-serif;
-    }
- 
-    .contact-form{
-        padding-top: 1rem;
-        display: grid;
-        justify-content: center;
-        padding-bottom: 2rem;;
-    }
-  .contact-input{
-    margin-bottom: 1.2rem;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-body {
+  background-color: #4b527e;
+  height: 100vh;
+}
+
+div h2 {
+  padding-top: 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: #e9b824;
+  font-size: 30px;
+  text-decoration: underline;
+}
+div #para {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #edb7ed;
+  font-size: 20px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.contact-form {
+  padding-top: 1rem;
+  display: grid;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.contact-input {
+  margin-bottom: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 1rem;
+  width: 20rem;
+  height: 2rem;
+}
+.contact-textarea {
+  margin-bottom: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 1rem;
+  width: 20rem;
+  height: 10rem;
+}
+.contact-form button {
+  color: white;
+}
+#icons {
+  display: flex;
+  justify-content: center;
+  margin-top: -10rem;
+}
+#icons li {
+  list-style: none;
+  font-size: 2.5rem;
+}
+ul li a {
+  color: white;
+}
+ul li a:hover {
+  color: #e9b824;
+  cursor: pointer;
+}
+/* ------------------------MEDIA QUERY-------------------------------------------- */
+/* ------------------------EXTRA SMALL DEVICES (PHONES)--------------------------- */
+@media screen and (max-width: 320px) {
+  .contact-body {
+    justify-content: center;
+  }
+  div h2 {
+    font-size: 20px;
+  }
+  div #para {
+    font-size: 12px;
+  }
+  .contact-form {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  .contact-input {
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    width: 15rem;
+    height: 1.5rem;
+  }
+  .contact-textarea {
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    width: 15rem;
+    height: 7rem;
+  }
+  #icons {
+    margin-top: -15rem;
+  }
+  #icons li {
+    font-size: 2rem;
+  }
+}
+/* ---------------------------SMALL DEVICES (MOBILES AND SMALL TABLETS)------------------------------ */
+@media (min-width: 320px) and (max-width: 768px) {
+  .contact-body {
+    justify-content: center;
+  }
+  div h2 {
+    font-size: 22px;
+  }
+  div #para {
+    font-size: 13px;
+  }
+  .contact-form {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  .contact-input {
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    width: 18rem;
+    height: 1.5rem;
+  }
+  .contact-textarea {
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    width: 18rem;
+    height: 7rem;
+  }
+  #icons {
+    margin-top: -15rem;
+  }
+  #icons li {
+    font-size: 2.2rem;
+  }
+}
+/* --------------------------------MEDIUM SCREENS (TABLETS)---------------------------------- */
+@media (min-width: 768px) and (max-width: 992px) {
+  .contact-body {
+    justify-content: center;
+  }
+  div h2 {
+    font-size: 24px;
+  }
+  div #para {
+    font-size: 14px;
+  }
+  .contact-form {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  .contact-input {
     font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: 1.5rem;
+  }
+  .contact-textarea {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: 7rem;
+  }
+  #icons {
+    margin-top: -15rem;
+  }
+  #icons li {
+    font-size: 2.2rem;
+  }
+}
+/* -----------------------------------LARGE SCREEN (DESKTOPS)------------------------------- */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .contact-body {
+    justify-content: center;
+  }
+  div h2 {
+    font-size: 30px;
+  }
+  div #para {
+    font-size: 20px;
+  }
+  .contact-form {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .contact-input {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
     width: 20rem;
     height: 2rem;
   }
-  .contact-textarea{
-    margin-bottom: 1.2rem;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    color: black;
-    font-size: 1rem;
+  .contact-textarea {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
     width: 20rem;
     height: 10rem;
   }
-  .contact-form button{
-    color: white;
-  }
-  #icons{
-    display: flex;
-    justify-content: center;
+  #icons {
     margin-top: -10rem;
   }
-  #icons li{list-style:none;
+  #icons li {
     font-size: 2.5rem;
   }
-  ul li a {
-      color: white;
+}
+/* ---------------------------------------EXTRA LARGE SCREEN (LARGE DESKTOPS)------------------------------------- */
+@media (min-width: 1200px){
+  .contact-body {
+    justify-content: center;
   }
-  ul li a:hover{
-      color:  #E9B824;
-      cursor: pointer;
+  div h2 {
+    font-size: 30px;
   }
-  /* For small and medium devices */
-  @media(min-width:300px) and (max-width:768px){
-    .contact-body{
-      justify-content: center;
-    }
-    div h2{
-font-size: 20px;
-    }
-    div #para{
-      font-size: 12px;
-    }
-    .contact-form{
-      padding-top: 0.5rem;
-      padding-bottom: 1rem;;
-    }
-    .contact-input{
-      font-size: 0.75rem;
-      margin-bottom: 1rem;
-      width: 15rem;
-      height: 1.5rem;
-    }
-    .contact-textarea{
-      font-size: 0.75rem;
-      margin-bottom: 1rem;
-      width: 15rem;
-      height: 7rem;
-    }
-    #icons{
-      margin-top: -15rem;
-    }
-    #icons li{
-      font-size: 2rem;;
-    }
+  div #para {
+    font-size: 20px;
   }
-/* For large devices */
-  @media(min-width:768px) and (max-width:992px){
-    .contact-body{
-      justify-content: center;
-    }
-    div h2{
-font-size: 22px;
-    }
-    div #para{
-      font-size: 13px;
-    }
-    .contact-form{
-      padding-top: 0.5rem;
-      padding-bottom: 1rem;;
-    }
-    .contact-input{
-      font-size: 0.75rem;
-      margin-bottom: 1rem;
-      width: 18rem;
-      height: 1.5rem;
-    }
-    .contact-textarea{
-      font-size: 0.75rem;
-      margin-bottom: 1rem;
-      width: 18rem;
-      height: 7rem;
-    }
-    #icons{
-    margin-top: -20rem;
-    }
-    #icons li{
-      font-size: 2.2rem;;
-    }
+  .contact-form {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
   }
-  /* For extra large devices */
-  @media(min-width:992px) and (max-width:1400px){
-    .contact-body{
-      justify-content: center;
-    }
-    div h2{
-font-size: 24px;
-    }
-    div #para{
-      font-size: 14px;
-    }
-    .contact-form{
-      padding-top: 0.5rem;
-      padding-bottom: 1rem;;
-    }
-    .contact-input{
-      font-size: 1rem;
-      margin-bottom: 1rem;
-      width: 20rem;
-      height: 1.5rem;
-    }
-    .contact-textarea{
-      font-size: 1rem;
-      margin-bottom: 1rem;
-      width: 20rem;
-      height: 7rem;
-    }
-    #icons{
-      margin-top: -20rem;
-    }
-    #icons li{
-      font-size: 2.2rem;;
-    }
+  .contact-input {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: 2rem;
   }
+  .contact-textarea {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: 10rem;
+  }
+  #icons {
+    margin-top: -30rem;
+  }
+  #icons li {
+    font-size: 2.5rem;
+  }
+}

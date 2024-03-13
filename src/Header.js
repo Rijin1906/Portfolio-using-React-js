@@ -18,7 +18,7 @@ export default function Header() {
             <Link to="/skills">
               <li>SKILLS</li>
             </Link>
-            <Link to="/project">
+            <Link to="/project1">
               {" "}
               <li>PROJECT</li>
             </Link>

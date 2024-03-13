@@ -15,22 +15,24 @@ import c from "../src/components  /assets/logos/c.png";
 // pdf import
 import resume from "../src/components  /assets/Resume.pdf"
 
-const data1 = [
+const data = [
   { key: 1, imgs: html},//0
   { key: 2, imgs: css },//1
   { key: 3, imgs:js },
   { key: 4, imgs: bts },
-  
+  { key: 5, imgs:redux  },
+  { key: 6, imgs: java },
+  { key: 7, imgs: sql },
+  {key :8, imgs: python},
+  {key:9, imgs: c}]
 
-
-  // { key: 8, imgs: p1 }
-];
-const data2=[{ key: 5, imgs:react  },
-  { key: 6, imgs:redux  },
-  { key: 7, imgs: java },
-  { key: 8, imgs: sql },
-  {key :9, imgs: python},
-  {key:10, imgs: c}]
+  const SkillCard = ({ title, icon }) => {
+    return (
+      <div className="skill-card">
+        <img src={icon}  />
+      </div>
+    );
+  };
 
 export default function Skills() {
 
@@ -43,7 +45,7 @@ export default function Skills() {
           <q>Build your skills, not your resume.</q><br></br>
         </div>
 
-      <div className="row alignments">
+      {/* <div className="row alignments">
         {" "}
         {data1.map((item) => (
           <div className="col-3 ">
@@ -58,6 +60,11 @@ export default function Skills() {
               <img src={item.imgs}></img>
             </div>
           </div>
+        ))}
+      </div> */}
+       <div className="skill-card-wrapper">
+        {data.map((skill) => (
+          <SkillCard key={skill.key} icon={skill.imgs} />
         ))}
       </div>
 

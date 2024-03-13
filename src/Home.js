@@ -4,7 +4,7 @@ import "../src/components  /css/Home.css";
 import img from"../src/components  /assets/one.JPG"
 import About from "./About";
 import Skills from "./Skills"
-import Project from "./Project";
+import Project1 from "./Project1";
 import Contact from "./Contact"
 
 export default function Home() {
@@ -21,8 +21,8 @@ export default function Home() {
       <div id="about">
       <About/>
       </div>
-      <Skills/>
-      <Project/>
+      <Skills/> 
+      <Project1/>
       <Contact/>
     </div>
   );
