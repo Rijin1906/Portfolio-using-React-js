@@ -7,7 +7,8 @@ import js from "../src/components  /assets/logos/js.png";
 import react from "../src/components  /assets/logos/react js.png";
 import redux from "../src/components  /assets/logos/redux.png"
 import java from "../src/components  /assets/logos/java.png";
-import sql from "../src/components  /assets/logos/sql.png";
+import mySQL from "../src/components  /assets/logos/mySQL.png";
+import node from "../src/components  /assets/logos/node js.png";
 import python from "../src/components  /assets/logos/python.png";
 import c from "../src/components  /assets/logos/c.png";
 
@@ -20,11 +21,15 @@ const data = [
   { key: 2, imgs: css },//1
   { key: 3, imgs:js },
   { key: 4, imgs: bts },
-  { key: 5, imgs:redux  },
+  { key: 5, imgs:react  },
   { key: 6, imgs: java },
-  { key: 7, imgs: sql },
+  { key: 7, imgs: mySQL },
   {key :8, imgs: python},
-  {key:9, imgs: c}]
+  { key: 9, imgs: node },
+  // {key:10, imgs: c},
+  // { key: 11, imgs: redux },
+
+]
 
   const SkillCard = ({ title, icon }) => {
     return (
