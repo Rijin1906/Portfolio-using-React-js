@@ -44,6 +44,7 @@ export default function Contact() {
             name="user_name"
             placeholder="Name"
             className="contact-input"
+            required
           />
           {/* <label>Email</label> */}
           <input
@@ -51,6 +52,7 @@ export default function Contact() {
             name="user_email"
             placeholder="Email"
             className="contact-input"
+            required
           />
           {/* <label>Message</label> */}
           <textarea
@@ -59,6 +61,7 @@ export default function Contact() {
             // row="50"
             placeholder="Write here.."
             className="contact-textarea"
+            required
           />
           <button type="submit" className="btn btn-outline-info btn-lg">
             {" "}
