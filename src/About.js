@@ -27,7 +27,7 @@ export default function About() {
             <p>
             In addition to core DevOps practices, I bring strong knowledge of Kubernetes for container orchestration and AWS for cloud infrastructure management. I focus on improving system scalability, reliability, and performance by leveraging automation and best-in-class DevOps methodologies. With a solid understanding of environment management, monitoring, and workflow optimization, I am committed to enhancing delivery efficiency and contributing to high-performing, resilient engineering environments.
             </p>
-            <br></br>
+
           </div>
         </div>
 
