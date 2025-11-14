@@ -11,7 +11,7 @@ import docker from "../src/components  /assets/logos/docker.png";
 import k8s from "../src/components  /assets/logos/kubernetes.png";
 import jenkins from "../src/components  /assets/logos/jenkins.png";
 import aws from "../src/components  /assets/logos/aws.png";
-import ansible from "../src/components  /assets/logos/ansible.png";
+import ansible from "../src/components  /assets/logos/icons8-ansible-50.png";
 import git from "../src/components  /assets/logos/git.png";
 
 // pdf import
