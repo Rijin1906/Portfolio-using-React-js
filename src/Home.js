@@ -14,7 +14,7 @@ export default function Home() {
       <div className="main-div">
      
         <div className="div-one"><h1>Hey👋🏻, I am Rijin....</h1>
-        <h4>Software Developer..</h4></div> 
+        <h4>DevOps EngineerEngineer</h4></div> 
         <div className="div-two"></div>
       </div>
       <hr></hr>

@@ -21,30 +21,13 @@ export default function About() {
           </div>
           <div className="second">
             <p>
-              As a passionate front-end and Java developer, I bring together my
-              expertise in both user-facing web development and server-side
-              programming to create comprehensive and engaging web applications.
-              With a strong foundation in HTML, CSS, and JavaScript, I craft
-              intuitive and visually appealing interfaces that deliver a
-              seamless user experience.
+              As a results-driven DevOps Engineer, I have hands-on experience in designing, building, and automating CI/CD pipelines using Jenkins to ensure smooth and consistent software delivery. My expertise spans Docker containerization, Linux administration, and Shell scripting, enabling me to create efficient deployment workflows and automate system operations. I am proficient in integrating Git for version control, managing branching strategies, and optimizing build, test, and release processes to support collaborative development across teams.
             </p>
             <br></br>
             <p>
-              Combining my front-end and Java skills, I excel at integrating
-              user interactions with server-side logic, ensuring seamless
-              communication between the client and the server. I am well-versed
-              in API integration, enabling me to fetch and display data from the
-              server-side to enhance the user experience.
+            In addition to core DevOps practices, I bring strong knowledge of Kubernetes for container orchestration and AWS for cloud infrastructure management. I focus on improving system scalability, reliability, and performance by leveraging automation and best-in-class DevOps methodologies. With a solid understanding of environment management, monitoring, and workflow optimization, I am committed to enhancing delivery efficiency and contributing to high-performing, resilient engineering environments.
             </p>
             <br></br>
-            <p>
-              I am a highly motivated and results-oriented individual with a
-              strong work ethic and a passion for web development. I am always
-              eager to take on new challenges and learn new things. I am
-              confident that my skills make me a valuable asset
-              to any team. I am eager to contribute my expertise to creating
-              innovative and user-friendly web applications.
-            </p>
           </div>
         </div>
 

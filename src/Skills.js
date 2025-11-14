@@ -1,31 +1,33 @@
 import React from "react";
 import "../src/components  /css/Skills.css";
-import html from "../src/components  /assets/logos/html.png";
-import css from "../src/components  /assets/logos/css.png";
-import bts from "../src/components  /assets/logos/bootstrap.png";
-import js from "../src/components  /assets/logos/js.png";
+// import html from "../src/components  /assets/logos/html.png";
+// import css from "../src/components  /assets/logos/css.png";
+// import js from "../src/components  /assets/logos/js.png";
 import react from "../src/components  /assets/logos/react js.png";
-import redux from "../src/components  /assets/logos/redux.png"
-import java from "../src/components  /assets/logos/java.png";
 import mySQL from "../src/components  /assets/logos/mySQL.png";
-import node from "../src/components  /assets/logos/node js.png";
 import python from "../src/components  /assets/logos/python.png";
-import c from "../src/components  /assets/logos/c.png";
-
+import linux from "../src/components  /assets/logos/linux_PNG.png";
+import docker from "../src/components  /assets/logos/docker.png";
+import k8s from "../src/components  /assets/logos/kubernetes.png";
+import jenkins from "../src/components  /assets/logos/jenkins.png";
+import aws from "../src/components  /assets/logos/aws.png";
+import ansible from "../src/components  /assets/logos/ansible.png";
+import git from "../src/components  /assets/logos/git.png";
 
 // pdf import
 import resume from "../src/components  /assets/Resume.pdf"
 
 const data = [
-  { key: 1, imgs: html},//0
-  { key: 2, imgs: css },//1
-  { key: 3, imgs:js },
-  { key: 4, imgs: bts },
-  { key: 5, imgs:react  },
-  { key: 6, imgs: java },
-  { key: 7, imgs: mySQL },
+  { key: 1, imgs: git},//0
+  { key: 2, imgs:  ansible},//1
+  { key: 3, imgs: aws},
+  { key: 4, imgs: jenkins},
+  { key: 5, imgs: k8s},
+  { key: 6, imgs: docker},
+  { key: 7, imgs: linux},
   {key :8, imgs: python},
-  { key: 9, imgs: node },
+  { key: 9, imgs: mySQL},
+  { key: 10, imgs: react},
   // {key:10, imgs: c},
   // { key: 11, imgs: redux },
 
